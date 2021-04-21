@@ -1,4 +1,4 @@
-FROM node:latest as build-step-node
+FROM node:latest as build-step
 
 WORKDIR /usr/src/app
 
