@@ -2,10 +2,10 @@ import Sequelize from "sequelize"
 
 export const connectionsdb = new Sequelize(
     "CollegeDB",
-    "protobotUser",
-    "passwordUser",
+    "usernameDB",
+    "passwordDB",
     {
-        host: "localhost",
+        host: "72.167.32.219",
         dialect: 'postgres'
     }
 );
